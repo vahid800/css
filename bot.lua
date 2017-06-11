@@ -360,8 +360,8 @@ function tdcli_update_callback(data)
 				elseif text:match("ریپورت") then
 					tdcli_function ({
 						ID = "SendBotStartMessage",
-						bot_user_id_ = 178220800,
-						chat_id_ = 178220800,
+						bot_user_id_ = 244200491,
+						chat_id_ = 244200491,
 						parameter_ = 'start'
 					}, dl_cb, nil)
 				elseif text:match("^(/reload)$") then
